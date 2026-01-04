@@ -4,12 +4,13 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter @Setter
 @Entity
 @Table(name = "customers")
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Customer extends User {

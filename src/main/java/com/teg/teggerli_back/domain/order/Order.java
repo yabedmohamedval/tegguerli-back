@@ -3,15 +3,16 @@ package com.teg.teggerli_back.domain.order;
 import com.teg.teggerli_back.domain.enums.OrderStatus;
 import com.teg.teggerli_back.domain.users.Customer;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter @Setter
 @Entity
 @Table(name = "orders")
-@Data
 public class Order {
 
     @Id
