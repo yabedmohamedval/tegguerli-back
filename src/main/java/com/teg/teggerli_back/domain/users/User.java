@@ -3,15 +3,16 @@ package com.teg.teggerli_back.domain.users;
 import com.teg.teggerli_back.domain.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.Instant;
 
+@Getter @Setter
 @Entity
 @Table(name = "users")
 @Inheritance(strategy = InheritanceType.JOINED)
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public abstract class User {
