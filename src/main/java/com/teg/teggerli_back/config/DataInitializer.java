@@ -12,11 +12,13 @@ import com.teg.teggerli_back.repository.ProductRepository;
 import jakarta.persistence.*;
 import jakarta.persistence.criteria.*;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 
+@Profile({"local","dev"})
 @Component
 public class DataInitializer implements CommandLineRunner {
     private final CustomerRepository customerRepository;
