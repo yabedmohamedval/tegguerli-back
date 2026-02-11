@@ -1,4 +1,4 @@
-package com.teg.teggerli_back.api.catalog.dto;
+package com.teg.teggerli_back.dto.catalog;
 
 import jakarta.validation.constraints.Min;
 

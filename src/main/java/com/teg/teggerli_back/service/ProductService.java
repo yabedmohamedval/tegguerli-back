@@ -1,9 +1,9 @@
 package com.teg.teggerli_back.service;
 
-import com.teg.teggerli_back.api.catalog.dto.CreateProductRequest;
-import com.teg.teggerli_back.api.catalog.dto.ProductImageResponse;
-import com.teg.teggerli_back.api.catalog.dto.ProductResponse;
-import com.teg.teggerli_back.api.catalog.dto.UpdateProductRequest;
+import com.teg.teggerli_back.dto.catalog.CreateProductRequest;
+import com.teg.teggerli_back.dto.catalog.ProductImageResponse;
+import com.teg.teggerli_back.dto.catalog.ProductResponse;
+import com.teg.teggerli_back.dto.catalog.UpdateProductRequest;
 import com.teg.teggerli_back.domain.catalog.Category;
 import com.teg.teggerli_back.domain.catalog.Product;
 import com.teg.teggerli_back.domain.catalog.ProductImage;

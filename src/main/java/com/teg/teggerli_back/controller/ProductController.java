@@ -1,8 +1,8 @@
 package com.teg.teggerli_back.controller;
 
-import com.teg.teggerli_back.api.catalog.dto.CreateProductRequest;
-import com.teg.teggerli_back.api.catalog.dto.ProductResponse;
-import com.teg.teggerli_back.api.catalog.dto.UpdateProductRequest;
+import com.teg.teggerli_back.dto.catalog.CreateProductRequest;
+import com.teg.teggerli_back.dto.catalog.ProductResponse;
+import com.teg.teggerli_back.dto.catalog.UpdateProductRequest;
 import com.teg.teggerli_back.service.ProductService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;

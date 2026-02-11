@@ -43,17 +43,15 @@ public class DataInitializer implements CommandLineRunner {
         Customer customer = new Customer();
         customer.setName("sidi");
         customer.setEmail("sidi@example.com");
-        customer.setPhone("30305555");
+        customer.setCustomerPhone("30305555");
         customer.setPassword("1234");
         customer.setRole(UserRole.CUSTOMER);
-        customer.setAddress("17 avenue poulevard, 65000");
         customerRepository.save(customer);
 
         // 2) Merchant
         Merchant merchant = new Merchant();
         merchant.setName("ali");
         merchant.setEmail("ali@example.com");
-        merchant.setPhone("40405555");
         merchant.setPassword("1234");
         merchant.setRole(UserRole.MERCHANT);
         merchant.setShopPaymentPhone("31344555");

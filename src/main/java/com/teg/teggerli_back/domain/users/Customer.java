@@ -15,7 +15,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Customer extends User {
 
-    @Column(length = 500)
-    private String address;
+    @Column(nullable = false, unique = true)
+    private String CustomerPhone;
 
 }
